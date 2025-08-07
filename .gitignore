@@ -1,0 +1,20 @@
+@"
+# Python virtual environment
+venv/
+
+# Django specific
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+*.sqlite3
+db.sqlite3
+
+# VS Code
+.vscode/
+
+# Miscellaneous
+*.log
+.env
+"@ | Out-File .gitignore -Encoding utf8
